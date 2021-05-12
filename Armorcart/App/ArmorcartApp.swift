@@ -12,6 +12,7 @@ struct ArmorcartApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(Shop())
         }
     }
 }
